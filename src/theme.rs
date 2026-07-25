@@ -112,13 +112,13 @@ const PALETTE_CGGX: Palette = Palette {
     bg_highlight: Color::Rgb(21, 21, 24),
     border_dim: Color::Rgb(180, 140, 255),
     border_active: Color::Rgb(0, 229, 255),
-    text_faint: Color::Rgb(0, 229, 255),
+    text_faint: Color::Rgb(106, 106, 128),
     text_dim: Color::Rgb(0, 229, 255),
-    text_muted: Color::Rgb(232, 232, 240),
+    text_muted: Color::Rgb(255, 0, 127),
     text: Color::Rgb(232, 232, 240),
     text_bright: Color::Rgb(232, 232, 240),
-    amber_dim: Color::Rgb(0, 229, 255),
-    amber_glow: Color::Rgb(180, 140, 255),
+    amber_dim: Color::Rgb(180, 140, 255),
+    amber_glow: Color::Rgb(255, 45, 85),
 };
 
 #[derive(Clone, Copy)]
