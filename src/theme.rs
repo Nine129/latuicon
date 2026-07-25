@@ -108,17 +108,17 @@ const PALETTE_DRACULA: Palette = Palette {
 
 const PALETTE_CGGX: Palette = Palette {
     bg_canvas: Color::Rgb(10, 10, 12),
-    bg_selection: Color::Rgb(255, 107, 0),
+    bg_selection: Color::Rgb(180, 140, 255),
     bg_highlight: Color::Rgb(21, 21, 24),
-    border_dim: Color::Rgb(255, 107, 0),
-    border_active: Color::Rgb(200, 255, 0),
-    text_faint: Color::Rgb(0, 229, 255),
-    text_dim: Color::Rgb(200, 255, 0),
-    text_muted: Color::Rgb(0, 229, 255),
+    border_dim: Color::Rgb(180, 140, 255),
+    border_active: Color::Rgb(255, 0, 127),
+    text_faint: Color::Rgb(255, 0, 127),
+    text_dim: Color::Rgb(0, 229, 255),
+    text_muted: Color::Rgb(232, 232, 240),
     text: Color::Rgb(232, 232, 240),
     text_bright: Color::Rgb(232, 232, 240),
     amber_dim: Color::Rgb(0, 229, 255),
-    amber_glow: Color::Rgb(200, 255, 0),
+    amber_glow: Color::Rgb(180, 140, 255),
 };
 
 #[derive(Clone, Copy)]
