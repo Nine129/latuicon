@@ -118,7 +118,7 @@ const PALETTE_CGGX: Palette = Palette {
     text: Color::Rgb(232, 232, 240),
     text_bright: Color::Rgb(232, 232, 240),
     amber_dim: Color::Rgb(0, 229, 255),
-    amber_glow: Color::Rgb(180, 140, 255),
+    amber_glow: Color::Rgb(255, 45, 85),
 };
 
 #[derive(Clone, Copy)]
